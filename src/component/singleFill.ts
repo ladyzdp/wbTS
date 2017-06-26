@@ -1,5 +1,5 @@
 import PublicFn from '../publicFn/index'
-import { singleFillTpl } from '../template/index.js'
+import { handle } from '../template/index.js'
 
 class SingleFill extends PublicFn {
     constructor() {
@@ -8,7 +8,7 @@ class SingleFill extends PublicFn {
         this.init()
     }
     init() {
-        this.$("#app").append(singleFillTpl)
+        this.$("#app").append(handle)
     }
 }
 export default SingleFill
