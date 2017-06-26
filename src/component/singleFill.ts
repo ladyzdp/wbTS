@@ -1,12 +1,14 @@
-import $ from 'jquery'
-import SingleFillTpl from '../template/singleFill.html'
-class SingleFill {
+import PublicFn from '../publicFn/index'
+import { singleFillTpl } from '../template/index.js'
+
+class SingleFill extends PublicFn {
     constructor() {
+        super()
+        var $ = this.$;
         this.init()
-    };
+    }
     init() {
-        $("#app").append(SingleFillTpl());
-        $("#abc").html('dhhdsdiuew');
-    };
+        this.$("#app").append(singleFillTpl)
+    }
 }
 export default SingleFill

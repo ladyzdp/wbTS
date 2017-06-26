@@ -1,12 +1,18 @@
-import $ from 'jquery'
-import SingleSelectTpl from '../template/singleSelect.html'
-class SingleSelect {
+import PublicFn from '../publicFn/index'
+import { singleSelectTpl } from '../template/index.js'
+
+class SingleSelect extends PublicFn {
     constructor() {
-        console.log(11222)
+        super()
+        var $ = this.$;
         this.init()
-    };
+        this.event()
+    }
     init() {
-        $("#app").html(SingleSelectTpl())
+        this.$("#app").append(singleSelectTpl)
     };
+    event() {
+        this.edite(".item-con")
+    }
 }
 export default SingleSelect

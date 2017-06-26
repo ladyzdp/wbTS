@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jiajia-Yang/wbTS.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/Jiajia-Yang/wbTS/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Jiajia-Yang/wbTS#readme",
+  "homepage": "",
   "author": "Jiajia-Yang",
   "license": "ISC",
   "devDependencies": {
@@ -35,6 +35,7 @@
     "mustache-loader": "^0.3.0",
     "node-sass": "^3.13.1",
     "postcss-loader": "^2.0.6",
+    "raw-loader": "^0.5.1",
     "sass-loader": "^3.2.3",
     "scss-loader": "0.0.1",
     "style-loader": "^0.13.2",
@@ -49,14 +50,6 @@
   },
   "peerDependencies": {
     "node-sass": "^4.0.0",
-    "webpack": "^2.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
-  },
-  "homepage": ""
+    "webpack": "^2.4.1"
+  }
 }

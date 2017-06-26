@@ -1,0 +1,41 @@
+.single-select{
+    width: 100%;
+    background: #fff;
+    .left-title{
+        width: 50px;
+        float: left;
+    }
+    .right-con{
+        border-left: 1px solid #eee;
+        width: 100%;
+        margin-left: 50px;
+        padding: 0 20px;
+        .question-list{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            .question-list-item{
+                position: relative;
+                margin: 8px 0;
+                .item-title{
+                    display: inline-block;
+                    position: absolute;
+                    vertical-align: middle;
+                    height: 100%;
+                }
+                .item-con{
+                    display: inline-block;
+                    width: 100%;
+                    margin-left: 30px;
+                    word-wrap: break-word;
+                    word-break: break-all;
+                    font-size: 14px;
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+}
+
+
+

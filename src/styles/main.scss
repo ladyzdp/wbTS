@@ -1,8 +1,9 @@
 
 @import 'reset';
+@import 'singleSelect';
 #app{
     height: 100px;
-    width: 3000px;
+    width: 100%;
     background: red;
 }
 .wrap{

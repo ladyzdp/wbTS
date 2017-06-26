@@ -40,11 +40,16 @@ module.exports = {
             loader: 'url-loader?limit=8192'
         }, {
             test: /\.html$/,
-            loader: 'mustache-loader'
+            loader: 'raw-loader'
         }, {
             test: /\.handlebars$/,
             loader: 'handlebars-loader'
-        }]
+        },
+        {
+        test: /\.ts/,
+        loader: 'ts-loader',
+        exclude: /node_modules/
+      }]
     },
     plugins: [
         new ExtractTextPlugin({
