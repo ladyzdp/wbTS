@@ -1,0 +1,14 @@
+/.gulp/
+/node_modules/
+/WEB-INF/
+/npm-debug.log/
+/release/
+.sublime-gulp.cac
+debug.log
+/.vscode/
+/hprose/
+/log/
+/.idea/
+.eslintrc.json
+build/
+
